@@ -1,0 +1,98 @@
+/* General Page Styling */
+body {
+font-family: Arial, sans-serif;
+margin: 10;
+padding: 0;
+background-color: #f4f4f4;
+color: #333;
+}
+
+/* Header */
+header {
+text-align: center;
+padding: 30px;
+background-color: white;
+}
+
+header h1 {
+margin-bottom: 10px;
+}
+
+/* Main Content */
+main {
+width: 90%;
+max-width: 1000px;
+margin: 30px auto;
+}
+
+/* Sections */
+section {
+background-color: white;
+padding: 20px;
+margin-bottom: 25px;
+border-radius: 8px;
+}
+
+/* Section Headings */
+section h2 {
+margin-top: 0;
+}
+
+/* Budget Summary */
+.summary-container {
+display: flex;
+gap: 20px;
+}
+
+.summary-card {
+flex: 1;
+padding: 20px;
+border: 1px solid #ddd;
+border-radius: 8px;
+text-align: center;
+}
+
+/* Expense Form */
+.form-group {
+margin-bottom: 15px;
+}
+
+label {
+display: block;
+margin-bottom: 5px;
+font-weight: bold;
+}
+
+input,
+select {
+width: 100%;
+padding: 10px;
+box-sizing: border-box;
+}
+
+button {
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+/* Expense Table */
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+th,
+td {
+padding: 12px;
+border-bottom: 1px solid #ddd;
+text-align: left;
+}
+
+/* Footer */
+footer {
+text-align: center;
+padding: 20px;
+background-color: white;
+}
